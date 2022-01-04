@@ -6,8 +6,9 @@
 ## 3.Create genesis block
 As you probably know, the blockchain is a distributed digital register in which all transactions are recorded in chronological order in the form of blocks. Blocks are generated during the mining process and added to the blockchain chain. The number of blocks is unlimited, but there is always one separate block that gave rise to the whole chain - the genesis-block.
 To create a private blockchain, you first need to generate a genesis block. To do this, you need to create a Genesis file, write the necessary commands (attributes) into it and use it with Geth.
-Cmd: geth init /path/to/genesisfile.json --datadir /path/to/data/directory
-genesis.json file like this:
+- Cmd: 
+```geth init /path/to/genesisfile.json --datadir /path/to/data/directory```
+- genesis.json file like this:
 ```
 {
     "config": {
