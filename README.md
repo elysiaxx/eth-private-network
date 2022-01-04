@@ -1,7 +1,7 @@
 # Step by step to build a private ethereum network
 ## 1.Go into the technical nuances
 ## Preparation
-1. Install Geth
+1. [Install Geth] https://geth.ethereum.org/docs/install-and-build/installing-geth
 ## 2.Create the Datadir folder
 ## 3.Create genesis block
 As you probably know, the blockchain is a distributed digital register in which all transactions are recorded in chronological order in the form of blocks. Blocks are generated during the mining process and added to the blockchain chain. The number of blocks is unlimited, but there is always one separate block that gave rise to the whole chain - the genesis-block.
