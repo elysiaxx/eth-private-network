@@ -1,6 +1,7 @@
 # Step by step to build a private ethereum network
 ## 1.Go into the technical nuances
-## Preparation
+1. [Learn about Ethereum] https://ethereum.org/en/developers/tutorials/
+## 2.Preparation
 1. [Install Geth] https://geth.ethereum.org/docs/install-and-build/installing-geth
 ## 2.Create the Datadir folder
 ## 3.Create genesis block
