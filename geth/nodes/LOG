@@ -33,3 +33,5 @@
 04:54:24.407697 version@stat F·[0 1] S·621B[0B 621B] Sc·[0.00 0.00]
 04:54:24.409277 table@compaction committed F-1 S-1KiB Ke·0 D·206 T·4.36437ms
 04:54:24.409409 table@remove removed @2
+06:44:52.506919 db@close closing
+06:44:52.506969 db@close done T·48.824µs

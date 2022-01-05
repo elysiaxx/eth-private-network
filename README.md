@@ -1,8 +1,9 @@
 # Step by step to build a private ethereum network
+---
 ## 1.Go into the technical nuances
-1. Learn about Ethereum [https://ethereum.org/en/developers/tutorials/]
+1. [Learn about Ethereum](https://ethereum.org/en/developers/tutorials/)
 ## 2.Preparation
-1. Install Geth [https://geth.ethereum.org/docs/install-and-build/installing-geth]
+1. [Install Geth](https://geth.ethereum.org/docs/install-and-build/installing-geth)
 ## 3.Create the Datadir folder
 ## 4.Create genesis block
 As you probably know, the blockchain is a distributed digital register in which all transactions are recorded in chronological order in the form of blocks. Blocks are generated during the mining process and added to the blockchain chain. The number of blocks is unlimited, but there is always one separate block that gave rise to the whole chain - the genesis-block.
@@ -56,4 +57,10 @@ miner.stop()
 - Check ethers you mined:
 ```
 eth.getBalance("0x...")
+```
+---
+## Expose Network to use by HTTP based JSON RPC API
+Command:
+```
+geth --datadir ./ --networkid 120999 --http --http.addr 0.0.0.0 --http.port 8545 --http.corsdomain "*" --http.api "web3,personal,eth,net,admin"
 ```
